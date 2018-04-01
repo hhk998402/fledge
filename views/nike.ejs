@@ -1,0 +1,137 @@
+<html>
+<head>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+</head>
+<body>
+
+<button class="button-modal">Open modal</button>
+<div class="modal">
+    <div class="modal-header"><span class="modal-close"></span></div>
+    <div class="modal-body">
+        <div class="picture">
+            <img class="modal-image" src="/brand_placeholder.jpg"/>
+        </div>
+        <div class="modal-info">
+            <h3 class="modal-title">Nike Shoes</h3>
+            <p class="modal-label">Running Shoes</p><span class="item-price"><strike>Rs. 3500</strike></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>Rs.2500</span>
+            <p class="item-description">Nike footwear is specifically designed for athletic use, placing considerable emphasis on high quality construction and innovative design. However, a large percentage of the products are worn for casual or leisure purposes. Nike markets and sells a wide variety of products, including shoes for running, basketball, cross training, women and children. All of which are currently its top-selling product categories.</p>
+            <div class="size">
+                <h3>Size</h3>
+                <ul class="sizes-list">
+                    <li class="item-size size-selected">34</li>
+                    <li class="item-size">36</li>
+                    <li class="item-size">38</li>
+                    <li class="item-size">40</li>
+                </ul>
+            </div>
+            <div class="color">
+                <h3>Color</h3>
+                <ul class="colors-list">
+                    <li class="silver color-selected">
+                        <div class="item-color">
+                            <input type="radio"/>
+                        </div>
+                    </li>
+                    <li class="purple">
+                        <div class="item-color">
+                            <input type="radio"/>
+                        </div>
+                    </li>
+                    <li class="red">
+                        <div class="item-color">
+                            <input type="radio"/>
+                        </div>
+                    </li>
+                    <li class="orange">
+                        <div class="item-color">
+                            <input type="radio"/>
+                        </div>
+                    </li>
+                    <li class="green">
+                        <div class="item-color">
+                            <input type="radio"/>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="modal-actions">
+        <button class="button-cart">Add to cart</button>
+        <button class="button-wishlist">Add to wishlist</button>
+    </div>
+    <div class="checkout-panel">
+        <div class="panel-body">
+            <h2 class="title">Checkout here!</h2>
+
+            <div class="progress-bar">
+                <div class="step active"></div>
+                <div class="step active"></div>
+                <div class="step"></div>
+                <div class="step"></div>
+            </div>
+
+            <div class="payment-method">
+                <label for="card" class="method card">
+                    <div class="card-logos">
+                        <img src="https://designmodo.com/demo/checkout-panel/img/visa_logo.png"/>
+                        <img src="https://designmodo.com/demo/checkout-panel/img/mastercard_logo.png"/>
+                    </div>
+
+                    <div class="radio-input">
+                        <input id="card" type="radio" name="payment">
+                        Pay Rs. 2500 with credit card
+                    </div>
+                </label>
+
+                <label for="paypal" class="method paypal">
+                    <img src="https://designmodo.com/demo/checkout-panel/img/paypal_logo.png"/>
+                    <div class="radio-input">
+                        <input id="paypal" type="radio" name="payment">
+                        Pay Rs. 2500 with PayPal
+                    </div>
+                </label>
+            </div>
+
+            <div class="input-fields">
+                <div class="column-1">
+                    <label for="cardholder">Name</label>
+                    <input type="text" id="cardholder" />
+
+                    <div class="small-inputs">
+                        <div>
+                            <label for="date">Valid date</label>
+                            <input id="datepicker1" type="text" id="date"/>
+                        </div>
+
+                        <div>
+                            <label for="verification">CVV / CVC *</label>
+                            <input type="password" id="verification"/>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="column-2">
+                    <label for="cardnumber">Card Number</label>
+                    <input type="password" id="cardnumber"/>
+
+                    <span class="info">* CVV or CVC is the card security code, unique three digits number on the back of your card separate from its number.</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel-footer">
+            <button class="btn back-btn">Back</button>
+            <button class="btn next-btn">Next Step</button>
+        </div>
+    </div>
+
+
+</div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="javascripts/nike.js"></script>
+</html>

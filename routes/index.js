@@ -27,5 +27,7 @@ router.get('/twitter',(req,res,next)=>{
     });
 })
 
-router.get()
+router.get('/nikepage',(req,res,next)=>{
+    res.render('nike', { title: 'Express' });
+});
 module.exports = router;
