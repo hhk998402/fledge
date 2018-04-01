@@ -1,0 +1,104 @@
+body{
+    background-color: #eee;
+}
+
+.spacer-top{
+    width: 100%;
+    height: 5vh;
+}
+
+.context{
+    background-color: white;
+    margin: 2px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.context1{
+    background-color: white;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+.context-navbar1{
+    background-color: mediumpurple;
+    width:100%;
+}
+
+.top-right{
+    position: absolute;
+    right: 2em;
+}
+
+.top-left{
+    margin-left: 0.5em;
+}
+
+.horizontal-center{
+    margin-left: 50%!important;
+    transform: translate(-50%,0);
+}
+
+.display-picture{
+    border-radius: 50%;
+    border: 2px solid #eee;
+}
+
+.name{
+    font-weight: bolder;
+    margin-top: 1vh;
+    margin-bottom: 5px;
+}
+
+.icon{
+    width:20%;
+}
+
+.icons{
+    margin-bottom: 2vh;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.description{
+    color: #AAA;
+    font-weight: lighter;
+}
+
+/*PC VIEW*/
+
+@media (min-width: 1024px){
+    .display-picture{
+        width: 40%;
+        margin-top: 2vh;
+    }
+}
+
+
+/*PHONE VIEW*/
+
+@media (max-width: 768px){
+
+}
+
+/*TABLET VIEW*/
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+}
+
+.product {
+    position: relative;
+    width: 100%; /* for IE 6 */
+}
+
+h2 span {
+    color: white;
+    font: bold 24px/45px Helvetica, Sans-Serif;
+    letter-spacing: -1px;
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+}

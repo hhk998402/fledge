@@ -34,4 +34,8 @@ router.get('/nikepage',(req,res,next)=>{
 router.get('/company',(req,res,next)=>{
     res.render('company', { title: 'Express' });
 });
+
+router.get('/main',(req,res,next)=>{
+    res.render('main', { title: 'Express' });
+});
 module.exports = router;
